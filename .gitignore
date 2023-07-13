@@ -65,8 +65,5 @@ yarn-error.log
 # testing
 /coverage
 
-# Save content for react-native-change-icon => ChangeIconModule.java
-!/node_modules/@react-native-firebase/
-/node_modules/@react-native-firebase/*
-!/node_modules/@react-native-firebase/in-app-messaging/
-/node_modules/@react-native-firebase/in-app-messaging/*
+# Save content for react-native-firebase in-app-messaging
+**/node_modules/@react-native-firebase/in-app-messaging
