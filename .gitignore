@@ -36,7 +36,7 @@ local.properties
 
 # node.js
 #
-node_modules/
+/node_modules/*
 npm-debug.log
 yarn-error.log
 
@@ -66,4 +66,7 @@ yarn-error.log
 /coverage
 
 # Save content for react-native-firebase in-app-messaging
-node_modules/@react-native-firebase/in-app-messaging/*
+!/node_modules/@react-native-firebase/
+/node_modules/@react-native-firebase/*
+!/node_modules/@react-native-firebase/in-app-messaging/
+/node_modules/@react-native-firebase/in-app-messaging/*
