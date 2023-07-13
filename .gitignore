@@ -66,4 +66,4 @@ yarn-error.log
 /coverage
 
 # Save content for react-native-firebase in-app-messaging
-**/node_modules/@react-native-firebase/in-app-messaging
+node_modules/@react-native-firebase/in-app-messaging/*
