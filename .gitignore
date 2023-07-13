@@ -36,8 +36,6 @@ local.properties
 
 # node.js
 #
-node_modules/*
-!node_modules/@react-native-firebase/*
 npm-debug.log
 yarn-error.log
 
